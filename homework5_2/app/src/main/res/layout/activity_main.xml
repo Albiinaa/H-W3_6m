@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="44sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trivia"
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+
+        android:id="@+id/iv_owl"
+        android:src="@drawable/ic_owl"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintEnd_toEndOf="@id/text_view"
+        app:layout_constraintStart_toStartOf="@id/text_view"
+        app:layout_constraintBottom_toTopOf="@id/text_view"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginBottom="70dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="NEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/iv_owl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+      <EditText
+          android:id="@+id/ed_password"
+          android:layout_marginBottom="20dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintBottom_toTopOf="@id/button"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          android:textSize="23sp"
+          android:text="Password"
+          android:layout_width="390dp"
+          android:layout_height="70dp"/>
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ed_password"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:text="Email"
+        android:layout_width="390dp"
+        android:layout_height="70dp"/>
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ed_email"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:text="Username       Trivia"
+        android:layout_width="390dp"
+        android:layout_height="70dp"/>
+
+
+    
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
