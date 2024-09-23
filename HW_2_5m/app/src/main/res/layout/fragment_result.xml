@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    tools:context=".LoveFragment">
+
+    <ImageView
+        android:id="@+id/img_showResult"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_result"
+        app:srcCompat="@drawable/ic_result">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/tv_names"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/you_me"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_score"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_resultText"
+        android:text="@string/_100"
+        android:textSize="48sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_tryAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:layout_marginTop="16dp">
+
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HW_2_5m</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="second_namee">Second Name</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="you_me">You Me</string>
+    <string name="your_score">Your Score</string>
+    <string name="_100">100%</string>
+    <string name="try_again">Try Again</string>
+</resources>
