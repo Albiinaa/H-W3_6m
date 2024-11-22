@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HW-2_m7</string>
+    <string name="name">Название задачи</string>
+    <string name="task">Добавить задачу</string>
+</resources>
